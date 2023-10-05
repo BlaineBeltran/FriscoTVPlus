@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212B366A2ACF5CE100672E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36692ACF5CE100672E8D /* AppDelegate.swift */; };
+		212B366C2ACF5CE100672E8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B366B2ACF5CE100672E8D /* SceneDelegate.swift */; };
+		212B366E2ACF5CE100672E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B366D2ACF5CE100672E8D /* ViewController.swift */; };
+		212B36712ACF5CE100672E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B366F2ACF5CE100672E8D /* Main.storyboard */; };
+		212B36732ACF5CE200672E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212B36722ACF5CE200672E8D /* Assets.xcassets */; };
+		212B36762ACF5CE200672E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */; };
+		212B36812ACF5CE200672E8D /* FriscoTV_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */; };
+		212B368B2ACF5CE200672E8D /* FriscoTV_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */; };
+		212B368D2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212B367D2ACF5CE200672E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212B365E2ACF5CE100672E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212B36652ACF5CE100672E8D;
+			remoteInfo = "FriscoTV+";
+		};
+		212B36872ACF5CE200672E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212B365E2ACF5CE100672E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212B36652ACF5CE100672E8D;
+			remoteInfo = "FriscoTV+";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		212B36662ACF5CE100672E8D /* FriscoTV+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FriscoTV+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212B36692ACF5CE100672E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212B366B2ACF5CE100672E8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		212B366D2ACF5CE100672E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212B36702ACF5CE100672E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212B36722ACF5CE200672E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212B36752ACF5CE200672E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212B36772ACF5CE200672E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212B367C2ACF5CE200672E8D /* FriscoTV+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FriscoTV+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_Tests.swift; sourceTree = "<group>"; };
+		212B36862ACF5CE200672E8D /* FriscoTV+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FriscoTV+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITests.swift; sourceTree = "<group>"; };
+		212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212B36632ACF5CE100672E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212B36792ACF5CE200672E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212B36832ACF5CE200672E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212B365D2ACF5CE100672E8D = {
+			isa = PBXGroup;
+			children = (
+				212B36682ACF5CE100672E8D /* FriscoTV+ */,
+				212B367F2ACF5CE200672E8D /* FriscoTV+Tests */,
+				212B36892ACF5CE200672E8D /* FriscoTV+UITests */,
+				212B36672ACF5CE100672E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212B36672ACF5CE100672E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212B36662ACF5CE100672E8D /* FriscoTV+.app */,
+				212B367C2ACF5CE200672E8D /* FriscoTV+Tests.xctest */,
+				212B36862ACF5CE200672E8D /* FriscoTV+UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212B36682ACF5CE100672E8D /* FriscoTV+ */ = {
+			isa = PBXGroup;
+			children = (
+				212B36692ACF5CE100672E8D /* AppDelegate.swift */,
+				212B366B2ACF5CE100672E8D /* SceneDelegate.swift */,
+				212B366D2ACF5CE100672E8D /* ViewController.swift */,
+				212B366F2ACF5CE100672E8D /* Main.storyboard */,
+				212B36722ACF5CE200672E8D /* Assets.xcassets */,
+				212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */,
+				212B36772ACF5CE200672E8D /* Info.plist */,
+			);
+			path = "FriscoTV+";
+			sourceTree = "<group>";
+		};
+		212B367F2ACF5CE200672E8D /* FriscoTV+Tests */ = {
+			isa = PBXGroup;
+			children = (
+				212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */,
+			);
+			path = "FriscoTV+Tests";
+			sourceTree = "<group>";
+		};
+		212B36892ACF5CE200672E8D /* FriscoTV+UITests */ = {
+			isa = PBXGroup;
+			children = (
+				212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */,
+				212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */,
+			);
+			path = "FriscoTV+UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212B36652ACF5CE100672E8D /* FriscoTV+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212B36902ACF5CE200672E8D /* Build configuration list for PBXNativeTarget "FriscoTV+" */;
+			buildPhases = (
+				212B36622ACF5CE100672E8D /* Sources */,
+				212B36632ACF5CE100672E8D /* Frameworks */,
+				212B36642ACF5CE100672E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FriscoTV+";
+			productName = "FriscoTV+";
+			productReference = 212B36662ACF5CE100672E8D /* FriscoTV+.app */;
+			productType = "com.apple.product-type.application";
+		};
+		212B367B2ACF5CE200672E8D /* FriscoTV+Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212B36932ACF5CE200672E8D /* Build configuration list for PBXNativeTarget "FriscoTV+Tests" */;
+			buildPhases = (
+				212B36782ACF5CE200672E8D /* Sources */,
+				212B36792ACF5CE200672E8D /* Frameworks */,
+				212B367A2ACF5CE200672E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212B367E2ACF5CE200672E8D /* PBXTargetDependency */,
+			);
+			name = "FriscoTV+Tests";
+			productName = "FriscoTV+Tests";
+			productReference = 212B367C2ACF5CE200672E8D /* FriscoTV+Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		212B36852ACF5CE200672E8D /* FriscoTV+UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212B36962ACF5CE200672E8D /* Build configuration list for PBXNativeTarget "FriscoTV+UITests" */;
+			buildPhases = (
+				212B36822ACF5CE200672E8D /* Sources */,
+				212B36832ACF5CE200672E8D /* Frameworks */,
+				212B36842ACF5CE200672E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212B36882ACF5CE200672E8D /* PBXTargetDependency */,
+			);
+			name = "FriscoTV+UITests";
+			productName = "FriscoTV+UITests";
+			productReference = 212B36862ACF5CE200672E8D /* FriscoTV+UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212B365E2ACF5CE100672E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					212B36652ACF5CE100672E8D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					212B367B2ACF5CE200672E8D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 212B36652ACF5CE100672E8D;
+					};
+					212B36852ACF5CE200672E8D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 212B36652ACF5CE100672E8D;
+					};
+				};
+			};
+			buildConfigurationList = 212B36612ACF5CE100672E8D /* Build configuration list for PBXProject "FriscoTV+" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212B365D2ACF5CE100672E8D;
+			productRefGroup = 212B36672ACF5CE100672E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212B36652ACF5CE100672E8D /* FriscoTV+ */,
+				212B367B2ACF5CE200672E8D /* FriscoTV+Tests */,
+				212B36852ACF5CE200672E8D /* FriscoTV+UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212B36642ACF5CE100672E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212B36762ACF5CE200672E8D /* LaunchScreen.storyboard in Resources */,
+				212B36732ACF5CE200672E8D /* Assets.xcassets in Resources */,
+				212B36712ACF5CE100672E8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212B367A2ACF5CE200672E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212B36842ACF5CE200672E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212B36622ACF5CE100672E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212B366E2ACF5CE100672E8D /* ViewController.swift in Sources */,
+				212B366A2ACF5CE100672E8D /* AppDelegate.swift in Sources */,
+				212B366C2ACF5CE100672E8D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212B36782ACF5CE200672E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212B36812ACF5CE200672E8D /* FriscoTV_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212B36822ACF5CE200672E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212B368D2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift in Sources */,
+				212B368B2ACF5CE200672E8D /* FriscoTV_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212B367E2ACF5CE200672E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212B36652ACF5CE100672E8D /* FriscoTV+ */;
+			targetProxy = 212B367D2ACF5CE200672E8D /* PBXContainerItemProxy */;
+		};
+		212B36882ACF5CE200672E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212B36652ACF5CE100672E8D /* FriscoTV+ */;
+			targetProxy = 212B36872ACF5CE200672E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		212B366F2ACF5CE100672E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212B36702ACF5CE100672E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212B36752ACF5CE200672E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212B368E2ACF5CE200672E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		212B368F2ACF5CE200672E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212B36912ACF5CE200672E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP3JFMJA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FriscoTV+/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beltran.blaine.FriscoTV-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212B36922ACF5CE200672E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP3JFMJA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FriscoTV+/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beltran.blaine.FriscoTV-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		212B36942ACF5CE200672E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP3JFMJA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beltran.blaine.FriscoTV-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriscoTV+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriscoTV+";
+			};
+			name = Debug;
+		};
+		212B36952ACF5CE200672E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP3JFMJA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beltran.blaine.FriscoTV-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriscoTV+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriscoTV+";
+			};
+			name = Release;
+		};
+		212B36972ACF5CE200672E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP3JFMJA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beltran.blaine.FriscoTV-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FriscoTV+";
+			};
+			name = Debug;
+		};
+		212B36982ACF5CE200672E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP3JFMJA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beltran.blaine.FriscoTV-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FriscoTV+";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212B36612ACF5CE100672E8D /* Build configuration list for PBXProject "FriscoTV+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212B368E2ACF5CE200672E8D /* Debug */,
+				212B368F2ACF5CE200672E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212B36902ACF5CE200672E8D /* Build configuration list for PBXNativeTarget "FriscoTV+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212B36912ACF5CE200672E8D /* Debug */,
+				212B36922ACF5CE200672E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212B36932ACF5CE200672E8D /* Build configuration list for PBXNativeTarget "FriscoTV+Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212B36942ACF5CE200672E8D /* Debug */,
+				212B36952ACF5CE200672E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212B36962ACF5CE200672E8D /* Build configuration list for PBXNativeTarget "FriscoTV+UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212B36972ACF5CE200672E8D /* Debug */,
+				212B36982ACF5CE200672E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212B365E2ACF5CE100672E8D /* Project object */;
+}
