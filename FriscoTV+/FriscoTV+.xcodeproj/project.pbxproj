@@ -16,6 +16,7 @@
 		212B36812ACF5CE200672E8D /* FriscoTV_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */; };
 		212B368B2ACF5CE200672E8D /* FriscoTV_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */; };
 		212B368D2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */; };
+		B1ADC2D42ACF68C600479CF1 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ADC2D32ACF68C600479CF1 /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		212B36862ACF5CE200672E8D /* FriscoTV+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FriscoTV+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITests.swift; sourceTree = "<group>"; };
 		212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1ADC2D32ACF68C600479CF1 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				212B36722ACF5CE200672E8D /* Assets.xcassets */,
 				212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */,
 				212B36772ACF5CE200672E8D /* Info.plist */,
+				B1ADC2D32ACF68C600479CF1 /* TestFile.swift */,
 			);
 			path = "FriscoTV+";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212B366E2ACF5CE100672E8D /* ViewController.swift in Sources */,
+				B1ADC2D42ACF68C600479CF1 /* TestFile.swift in Sources */,
 				212B366A2ACF5CE100672E8D /* AppDelegate.swift in Sources */,
 				212B366C2ACF5CE100672E8D /* SceneDelegate.swift in Sources */,
 			);
