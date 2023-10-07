@@ -10,12 +10,15 @@
 		212B366A2ACF5CE100672E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36692ACF5CE100672E8D /* AppDelegate.swift */; };
 		212B366C2ACF5CE100672E8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B366B2ACF5CE100672E8D /* SceneDelegate.swift */; };
 		212B366E2ACF5CE100672E8D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B366D2ACF5CE100672E8D /* ProfileViewController.swift */; };
-		212B36712ACF5CE100672E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B366F2ACF5CE100672E8D /* Main.storyboard */; };
 		212B36732ACF5CE200672E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212B36722ACF5CE200672E8D /* Assets.xcassets */; };
 		212B36762ACF5CE200672E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */; };
-		212B36812ACF5CE200672E8D /* FriscoTV_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */; };
 		212B368B2ACF5CE200672E8D /* FriscoTV_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */; };
 		212B368D2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */; };
+		212B36A82AD1CE3E00672E8D /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36A72AD1CE3E00672E8D /* Coordinating.swift */; };
+		212B36AA2AD1CEA200672E8D /* AppCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36A92AD1CEA200672E8D /* AppCoodinator.swift */; };
+		21B4F0C62AD1CFFA0098AA70 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 21B4F0C52AD1CFFA0098AA70 /* Localizable.xcstrings */; };
+		21B4F0C82AD1D00A0098AA70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4F0C72AD1D00A0098AA70 /* Constants.swift */; };
+		21B4F0CA2AD1D21A0098AA70 /* WatchNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4F0C92AD1D21A0098AA70 /* WatchNowViewController.swift */; };
 		65C07C5D2AD0634B0084BC4B /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */; };
 		65D480C42AD0A37000C76ED0 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */; };
 /* End PBXBuildFile section */
@@ -42,15 +45,18 @@
 		212B36692ACF5CE100672E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		212B366B2ACF5CE100672E8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		212B366D2ACF5CE100672E8D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		212B36702ACF5CE100672E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212B36722ACF5CE200672E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212B36752ACF5CE200672E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212B36772ACF5CE200672E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212B367C2ACF5CE200672E8D /* FriscoTV+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FriscoTV+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_Tests.swift; sourceTree = "<group>"; };
 		212B36862ACF5CE200672E8D /* FriscoTV+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FriscoTV+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITests.swift; sourceTree = "<group>"; };
 		212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		212B36A72AD1CE3E00672E8D /* Coordinating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
+		212B36A92AD1CEA200672E8D /* AppCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoodinator.swift; sourceTree = "<group>"; };
+		21B4F0C52AD1CFFA0098AA70 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		21B4F0C72AD1D00A0098AA70 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21B4F0C92AD1D21A0098AA70 /* WatchNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNowViewController.swift; sourceTree = "<group>"; };
 		65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,14 +109,17 @@
 		212B36682ACF5CE100672E8D /* FriscoTV+ */ = {
 			isa = PBXGroup;
 			children = (
-				212B36692ACF5CE100672E8D /* AppDelegate.swift */,
-				212B366B2ACF5CE100672E8D /* SceneDelegate.swift */,
-				212B366D2ACF5CE100672E8D /* ProfileViewController.swift */,
+				212B36AB2AD1CF3300672E8D /* Other */,
+				212B36A02AD1CDAC00672E8D /* DesignSystem */,
+				212B369F2AD1CDA000672E8D /* Extensions */,
+				212B369D2AD1CD8400672E8D /* Models */,
+				212B369E2AD1CD9A00672E8D /* Services */,
+				212B369A2AD1CD4700672E8D /* Views */,
+				212B369B2AD1CD6900672E8D /* ViewModels */,
+				212B36992AD1CD4000672E8D /* Coordinators */,
+				212B369C2AD1CD7400672E8D /* Controllers */,
 				65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */,
 				65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */,
-				212B366F2ACF5CE100672E8D /* Main.storyboard */,
-				212B36722ACF5CE200672E8D /* Assets.xcassets */,
-				212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */,
 				212B36772ACF5CE200672E8D /* Info.plist */,
 			);
 			path = "FriscoTV+";
@@ -119,7 +128,12 @@
 		212B367F2ACF5CE200672E8D /* FriscoTV+Tests */ = {
 			isa = PBXGroup;
 			children = (
-				212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */,
+				212B36A62AD1CE1200672E8D /* MockData */,
+				212B36A32AD1CDE100672E8D /* ServiceTests */,
+				212B36A12AD1CDD000672E8D /* ModelTests */,
+				212B36A22AD1CDD900672E8D /* ViewModelTests */,
+				212B36A52AD1CDF900672E8D /* CoordinatorTests */,
+				212B36A42AD1CDF100672E8D /* ControllerTests */,
 			);
 			path = "FriscoTV+Tests";
 			sourceTree = "<group>";
@@ -131,6 +145,121 @@
 				212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */,
 			);
 			path = "FriscoTV+UITests";
+			sourceTree = "<group>";
+		};
+		212B36992AD1CD4000672E8D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				212B36A72AD1CE3E00672E8D /* Coordinating.swift */,
+				212B36A92AD1CEA200672E8D /* AppCoodinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		212B369A2AD1CD4700672E8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		212B369B2AD1CD6900672E8D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		212B369C2AD1CD7400672E8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				21B4F0C92AD1D21A0098AA70 /* WatchNowViewController.swift */,
+				212B366D2ACF5CE100672E8D /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		212B369D2AD1CD8400672E8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		212B369E2AD1CD9A00672E8D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		212B369F2AD1CDA000672E8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		212B36A02AD1CDAC00672E8D /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		212B36A12AD1CDD000672E8D /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		212B36A22AD1CDD900672E8D /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		212B36A32AD1CDE100672E8D /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceTests;
+			sourceTree = "<group>";
+		};
+		212B36A42AD1CDF100672E8D /* ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ControllerTests;
+			sourceTree = "<group>";
+		};
+		212B36A52AD1CDF900672E8D /* CoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoordinatorTests;
+			sourceTree = "<group>";
+		};
+		212B36A62AD1CE1200672E8D /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		212B36AB2AD1CF3300672E8D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				212B36692ACF5CE100672E8D /* AppDelegate.swift */,
+				212B366B2ACF5CE100672E8D /* SceneDelegate.swift */,
+				212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */,
+				212B36722ACF5CE200672E8D /* Assets.xcassets */,
+				21B4F0C52AD1CFFA0098AA70 /* Localizable.xcstrings */,
+				21B4F0C72AD1D00A0098AA70 /* Constants.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +326,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					212B36652ACF5CE100672E8D = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -219,6 +348,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 212B365D2ACF5CE100672E8D;
 			productRefGroup = 212B36672ACF5CE100672E8D /* Products */;
@@ -239,7 +369,7 @@
 			files = (
 				212B36762ACF5CE200672E8D /* LaunchScreen.storyboard in Resources */,
 				212B36732ACF5CE200672E8D /* Assets.xcassets in Resources */,
-				212B36712ACF5CE100672E8D /* Main.storyboard in Resources */,
+				21B4F0C62AD1CFFA0098AA70 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +396,13 @@
 			files = (
 				65C07C5D2AD0634B0084BC4B /* ProfileTableViewCell.swift in Sources */,
 				212B366E2ACF5CE100672E8D /* ProfileViewController.swift in Sources */,
+				212B36AA2AD1CEA200672E8D /* AppCoodinator.swift in Sources */,
 				212B366A2ACF5CE100672E8D /* AppDelegate.swift in Sources */,
 				212B366C2ACF5CE100672E8D /* SceneDelegate.swift in Sources */,
+				21B4F0CA2AD1D21A0098AA70 /* WatchNowViewController.swift in Sources */,
+				212B36A82AD1CE3E00672E8D /* Coordinating.swift in Sources */,
 				65D480C42AD0A37000C76ED0 /* ProfileHeader.swift in Sources */,
+				21B4F0C82AD1D00A0098AA70 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +410,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212B36812ACF5CE200672E8D /* FriscoTV_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +438,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		212B366F2ACF5CE100672E8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				212B36702ACF5CE100672E8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,7 +575,6 @@
 				INFOPLIST_FILE = "FriscoTV+/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +602,6 @@
 				INFOPLIST_FILE = "FriscoTV+/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

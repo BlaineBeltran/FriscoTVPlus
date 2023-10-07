@@ -1,0 +1,17 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Watch Now" : {
+      "comment" : "The title used for the home view controller and tab bar item",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mira Ahora"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
