@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		212B366A2ACF5CE100672E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36692ACF5CE100672E8D /* AppDelegate.swift */; };
 		212B366C2ACF5CE100672E8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B366B2ACF5CE100672E8D /* SceneDelegate.swift */; };
-		212B366E2ACF5CE100672E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B366D2ACF5CE100672E8D /* ViewController.swift */; };
+		212B366E2ACF5CE100672E8D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B366D2ACF5CE100672E8D /* ProfileViewController.swift */; };
 		212B36712ACF5CE100672E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B366F2ACF5CE100672E8D /* Main.storyboard */; };
 		212B36732ACF5CE200672E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212B36722ACF5CE200672E8D /* Assets.xcassets */; };
 		212B36762ACF5CE200672E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */; };
 		212B36812ACF5CE200672E8D /* FriscoTV_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B36802ACF5CE200672E8D /* FriscoTV_Tests.swift */; };
 		212B368B2ACF5CE200672E8D /* FriscoTV_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */; };
 		212B368D2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */; };
+		65C07C5D2AD0634B0084BC4B /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */; };
+		65D480C42AD0A37000C76ED0 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		212B36662ACF5CE100672E8D /* FriscoTV+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FriscoTV+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212B36692ACF5CE100672E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		212B366B2ACF5CE100672E8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		212B366D2ACF5CE100672E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212B366D2ACF5CE100672E8D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		212B36702ACF5CE100672E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212B36722ACF5CE200672E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212B36752ACF5CE200672E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		212B36862ACF5CE200672E8D /* FriscoTV+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FriscoTV+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212B368A2ACF5CE200672E8D /* FriscoTV_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITests.swift; sourceTree = "<group>"; };
 		212B368C2ACF5CE200672E8D /* FriscoTV_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriscoTV_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				212B36692ACF5CE100672E8D /* AppDelegate.swift */,
 				212B366B2ACF5CE100672E8D /* SceneDelegate.swift */,
-				212B366D2ACF5CE100672E8D /* ViewController.swift */,
+				212B366D2ACF5CE100672E8D /* ProfileViewController.swift */,
+				65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */,
+				65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */,
 				212B366F2ACF5CE100672E8D /* Main.storyboard */,
 				212B36722ACF5CE200672E8D /* Assets.xcassets */,
 				212B36742ACF5CE200672E8D /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212B366E2ACF5CE100672E8D /* ViewController.swift in Sources */,
+				65C07C5D2AD0634B0084BC4B /* ProfileTableViewCell.swift in Sources */,
+				212B366E2ACF5CE100672E8D /* ProfileViewController.swift in Sources */,
 				212B366A2ACF5CE100672E8D /* AppDelegate.swift in Sources */,
 				212B366C2ACF5CE100672E8D /* SceneDelegate.swift in Sources */,
+				65D480C42AD0A37000C76ED0 /* ProfileHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
