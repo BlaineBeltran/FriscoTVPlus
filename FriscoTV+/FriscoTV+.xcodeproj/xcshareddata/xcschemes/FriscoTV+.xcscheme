@@ -73,6 +73,13 @@
             ReferencedContainer = "container:FriscoTV+.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "MOVIE_TOKEN"
+            value = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiYTJhNWY3ZTExMGU4ZWQ4ZWIyY2I1MDQxNWY2NGJlMiIsInN1YiI6IjY1MjA2NmYwNWIxMjQwMDBjNjA2MTdjYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.y9sYsNzZxVZ4oy87Hs8PI_wDll5ic0u50pjWv7qs3JQ"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
