@@ -1,8 +1,26 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%lld" : {
+
+    },
+    "Library" : {
+      "comment" : "The title used for the library tab"
+    },
+    "Main header title" : {
+
+    },
+    "Profile" : {
+      "comment" : "The title used for the profile bar "
+    },
+    "Search" : {
+      "comment" : "The title used for the search tab"
+    },
+    "Subtitle" : {
+
+    },
     "Watch Now" : {
-      "comment" : "The title used for the home view controller and tab bar item",
+      "comment" : "The title used for the watch now tab",
       "localizations" : {
         "es" : {
           "stringUnit" : {
