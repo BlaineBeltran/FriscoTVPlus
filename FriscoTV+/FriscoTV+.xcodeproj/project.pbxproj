@@ -39,7 +39,6 @@
 		21B4F0F32AD47A670098AA70 /* FTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4F0F22AD47A660098AA70 /* FTNavigationController.swift */; };
 		21B4F0F82AD744850098AA70 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4F0F72AD744850098AA70 /* Movie.swift */; };
 		21B4F0FA2AD74E940098AA70 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4F0F92AD74E940098AA70 /* HTTPClient.swift */; };
-		65C07C5D2AD0634B0084BC4B /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */; };
 		65D480C42AD0A37000C76ED0 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,7 +95,6 @@
 		21B4F0F22AD47A660098AA70 /* FTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTNavigationController.swift; sourceTree = "<group>"; };
 		21B4F0F72AD744850098AA70 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		21B4F0F92AD74E940098AA70 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
-		65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -419,7 +417,6 @@
 			isa = PBXGroup;
 			children = (
 				65D480C32AD0A37000C76ED0 /* ProfileHeader.swift */,
-				65C07C5C2AD0634B0084BC4B /* ProfileTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -574,7 +571,6 @@
 				21B4F0CD2AD207A40098AA70 /* WatchNowCollectionViewHeader.swift in Sources */,
 				21B4F0CF2AD2093A0098AA70 /* UIFont+Weight.swift in Sources */,
 				21B4F0FA2AD74E940098AA70 /* HTTPClient.swift in Sources */,
-				65C07C5D2AD0634B0084BC4B /* ProfileTableViewCell.swift in Sources */,
 				212B366E2ACF5CE100672E8D /* ProfileViewController.swift in Sources */,
 				212B36AA2AD1CEA200672E8D /* AppCoodinator.swift in Sources */,
 				2171BD882ADF05DF00860BE8 /* ScrollViewCoordinator.swift in Sources */,
