@@ -13,7 +13,6 @@ class ProfileViewController: UIViewController {
         let tableView = UITableView(frame: .zero, style: .insetGrouped)
         tableView.rowHeight = 40
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.register(ProfileTableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.register(ProfileHeader.self, forHeaderFooterViewReuseIdentifier: "sectionHeader")
         return tableView
     }()
@@ -33,7 +32,6 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .white
-//        tableView.backgroundColor = .clear
         tableView.dataSource = self
         tableView.delegate = self
         activateConstraints()
