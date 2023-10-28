@@ -99,4 +99,3 @@ struct ProfileHeader_Preview: PreviewProvider {
             .previewLayout(.sizeThatFits)
     }
 }
-
