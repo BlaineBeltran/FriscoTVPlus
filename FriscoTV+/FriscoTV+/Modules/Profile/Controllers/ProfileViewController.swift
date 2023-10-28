@@ -13,6 +13,7 @@ class ProfileViewController: UIViewController {
         let tableView = UITableView(frame: .zero, style: .insetGrouped)
         tableView.rowHeight = 40
         tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.register(ProfileHeader.self, forHeaderFooterViewReuseIdentifier: "sectionHeader")
         return tableView
     }()
