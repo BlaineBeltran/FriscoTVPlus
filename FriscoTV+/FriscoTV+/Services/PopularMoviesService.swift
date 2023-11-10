@@ -14,7 +14,7 @@ protocol PopularMovieServicing {
 struct PopularMoviesEndpoint: Endpoint {
     let page: Int
     let token: String
-    var path = "/3/movie/popular"
+    var path = "/3/discover/movie"
     var method: RequestMethod = .get
     var headers: [String : String]? {
         ["Authorization": "Bearer \(token)"]
@@ -34,10 +34,9 @@ struct PopularMoviesEndpoint: Endpoint {
 }
 
 struct PopularMoviesService: PopularMovieServicing {
-    // FIXME: client should be an abstraction not concrete implementation (SOLID)
-    let client: HTTPClient
+    let client: HTTPClientRequesting
     
-    init(client: HTTPClient = HTTPClient()) {
+    init(client: HTTPClientRequesting = HTTPClient()) {
         self.client = client
     }
     

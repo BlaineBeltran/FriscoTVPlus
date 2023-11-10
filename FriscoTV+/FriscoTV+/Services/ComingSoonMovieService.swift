@@ -14,7 +14,7 @@ protocol ComingSoonMovieServicing {
 struct ComingSoonMovieEndpoint: Endpoint {
     let page: Int
     let token: String
-    var path = "/3/movie/upcoming"
+    var path = "/3/discover/movie"
     var method: RequestMethod = .get
     var body: [String : String]?
     var headers: [String : String]? {
@@ -34,9 +34,9 @@ struct ComingSoonMovieEndpoint: Endpoint {
 }
 
 struct ComingSoonMovieService {
-    let client: HTTPClient
+    let client: HTTPClientRequesting
     
-    init(client: HTTPClient = HTTPClient()) {
+    init(client: HTTPClientRequesting = HTTPClient()) {
         self.client = client
     }
     
