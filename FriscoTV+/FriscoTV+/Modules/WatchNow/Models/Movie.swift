@@ -16,7 +16,7 @@ struct PaginatedResult<T: Codable>: Codable {
 struct Movie: Codable, Identifiable {
     let adult: Bool
     let backdropPath: String?
-    let genreIDS: [Int]?
+    let genreIds: [Int]?
     let id: Int
     let originalLanguage, originalTitle, overview: String
     let popularity: Double
@@ -34,5 +34,5 @@ struct Movie: Codable, Identifiable {
 
 // Sample movie to use in previews
 extension Movie {
-    static let sample = Movie(adult: false, backdropPath: "/4fLZUr1e65hKPPVw0R3PmKFKxj1.jpg", genreIDS: [16,35,10751,14,10749], id: 976573, originalLanguage: "en", originalTitle: "Elemental", overview: "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.", popularity: 467.32, posterPath: "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg", releaseDate: "2023-06-14", title: "Elemental", video: false, voteAverage: 7.749, voteCount: 2753)
+    static let sample = Movie(adult: false, backdropPath: "/4fLZUr1e65hKPPVw0R3PmKFKxj1.jpg", genreIds: [16,35,10751,14,10749], id: 976573, originalLanguage: "en", originalTitle: "Elemental", overview: "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.", popularity: 467.32, posterPath: "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg", releaseDate: "2023-06-14", title: "Elemental", video: false, voteAverage: 7.749, voteCount: 2753)
 }

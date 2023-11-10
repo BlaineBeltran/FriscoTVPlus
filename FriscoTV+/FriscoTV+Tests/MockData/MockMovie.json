@@ -1,0 +1,22 @@
+{
+    "adult": false,
+    "backdrop_path": "/4fLZUr1e65hKPPVw0R3PmKFKxj1.jpg",
+    "genre_ids": [
+        16,
+        35,
+        10751,
+        14,
+        10749
+    ],
+    "id": 976573,
+    "original_language": "en",
+    "original_title": "Elemental",
+    "overview": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.",
+    "popularity": 381.686,
+    "poster_path": "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg",
+    "release_date": "2023-06-14",
+    "title": "Elemental",
+    "video": false,
+    "vote_average": 7.743,
+    "vote_count": 2899
+}

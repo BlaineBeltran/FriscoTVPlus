@@ -18,7 +18,7 @@ struct MovieCard: View {
             AsyncImage(url: movie.imageURL) { image in
                 image
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
                     .frame(height: 200)
                     .clipShape(.rect(cornerRadius: 10, style: .continuous))
             } placeholder: {

@@ -24,6 +24,14 @@ extension DataProviding {
     }
 }
 
+///  HTTPClient abstraction to help with testability and allow for mock to not have specific implementation
+///  details of the class itself.
+protocol HTTPClientRequesting {
+    var session: DataProviding { get }
+    
+    func makeRequest<T: Codable>(for endpoint: Endpoint, objectType: T.Type) async throws -> T
+}
+
 enum RequestMethod: String {
     case get = "GET"
     case post = "POST"
@@ -92,7 +100,7 @@ enum HTTPClientError: Error {
     case unknownRequestError
 }
 
-struct HTTPClient {
+struct HTTPClient: HTTPClientRequesting {
     let session: DataProviding
     
     init(session: DataProviding = URLSession.shared) {

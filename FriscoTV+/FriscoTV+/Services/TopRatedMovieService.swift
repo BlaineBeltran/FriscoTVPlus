@@ -14,7 +14,7 @@ protocol TopRatedMovieServicing {
 struct TopRatedEndpoint: Endpoint {
     let token: String
     let page: Int
-    var path = "/3/movie/popular"
+    var path = "/3/discover/movie"
     var method: RequestMethod = .get
     var headers: [String : String]? {
         ["Authorization": "Bearer \(token)"]
@@ -34,9 +34,9 @@ struct TopRatedEndpoint: Endpoint {
 }
 
 struct TopRatedMovieService: TopRatedMovieServicing {
-    let client: HTTPClient
+    let client: HTTPClientRequesting
     
-    init(client: HTTPClient = HTTPClient()) {
+    init(client: HTTPClientRequesting = HTTPClient()) {
         self.client = client
     }
     
